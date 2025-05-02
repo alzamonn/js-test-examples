@@ -7,8 +7,8 @@ doh.register("SomeCode", [
       this.object = {hello: "world"}
     },
     runTest: function(){
-      doh.assertEqual({hello: "worggggld"}, this.object)
-      doh.assertNotEqual({say: "hgggggi"}, this.object)
+      doh.assertEqual({hello: "worggdfgdfgdfgggld"}, this.object)
+      doh.assertNotEqual({say: "hgdfghdfgggggi"}, this.object)
     }
   }
 ])
